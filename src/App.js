@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import { First_component } from './components/first_component';
+import { Second_component } from './components/second_component';
 
 function App() {
   return (
@@ -7,16 +9,10 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Learning React
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <First_component/>
+        <Second_component/>
       </header>
     </div>
   );
